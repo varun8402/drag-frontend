@@ -23,7 +23,7 @@ const AddUserForm = () => {
     
 
     try {
-      await axios.post('http://localhost:5000/api/users', formData);
+      await axios.post('https://dragbackend-2gug.onrender.com/api/users', formData);
       
       setName('');
       setEmail('');

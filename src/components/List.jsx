@@ -10,7 +10,7 @@ const UserList = () => {
 
   useEffect(() => {
     const fetchUsers = async () => {
-      const response = await axios.get(`http://localhost:5000/api/users?page=${page + 1}`);
+      const response = await axios.get(`https://dragbackend-2gug.onrender.com/api/users?page=${page + 1}`);
       setUsers(response.data.users);
       setTotalPages(response.data.totalPages);
     };
