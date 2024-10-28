@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
      
-      <a href='/add-user' className ="add-user-button">Add User</a>
+      <a href='/adduser' className ="add-user-button">Add User</a>
       <UserList/>
     </div>
   );
